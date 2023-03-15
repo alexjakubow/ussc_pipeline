@@ -8,7 +8,9 @@
 **.DS_Store
 
 # Directories and files
-data/**
+data/01_source/**
+data/02_raw/**
+data/03_csv/**
 _targets/**
 scratch/**
 scratch.R

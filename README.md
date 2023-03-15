@@ -5,7 +5,7 @@ This pipeline automates the following tasks in sequence to prepare the US Senten
 - Download files from website (results saved to `data/01_source`)
 - Extract file contents (results saved to `data/02_raw`)
 - Parse the SAS helper files (`.sas`) to ingest the raw data files (`.dat`) in fixed-width format
-- Reduce the dimensionality of the yearly-files using [2_io_download.R](https://github.com/charlottemary/sentencing_data/blob/main/2_io_download.R) as a guide to subset on features (columns) of interest
+- Reduce the dimensionality of the yearly-files using [2_io_download.R](https://github.com/charlottemary/sentencing_data/blob/main/2_io_download.R) as a guide to subset on features (columns) of interest (variable sets for each yearly file are saved as supplementary .txt files in `data/00_meta`)
 - Save data files in .csv format (`data/03_csv`)
 - Push contents of `data/03_csv` to shared OneDrive folder
 
