@@ -1,8 +1,14 @@
+# R-files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 
-# Directories
+# System
+**.DS_Store
+
+# Directories and files
 data/**
 _targets/**
+scratch/**
+scratch.R
